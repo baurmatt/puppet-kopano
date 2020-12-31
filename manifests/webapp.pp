@@ -2,7 +2,7 @@
 #
 class kopano::webapp (
   String        $package_name    = 'kopano-webapp',
-  Array[String] $enable_plugins  = [ 'desktopnotifications', 'spell', 'spell-en-us', 'spell-nl', ],
+  Array[String] $enable_plugins  = [ 'spell', 'spell-en-us', 'spell-nl', ],
   String        $package_version = 'installed',
 )
 {
